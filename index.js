@@ -1,5 +1,6 @@
+let count=0;
+
 function takeANumber(){
-  let count=0;
   count++;
 return `Order number ${count}`;
 };
