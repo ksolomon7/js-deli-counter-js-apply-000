@@ -1,7 +1,14 @@
-function takeANumber(array,name){
-  array.push(name);
-  return `Welcome, ${name}. You are number ${array.length} in line.`;
+function takeANumber(){
+  let count=0;
+  count=count+1;
+return `Order number ${count}`;
 };
+
+console.log(takeANumber());
+console.log(takeANumber());
+console.log(takeANumber());
+
+
 
 function nowServing(katzDeliLine){
   if(katzDeliLine.length>0){
